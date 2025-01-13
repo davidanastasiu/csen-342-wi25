@@ -7,7 +7,7 @@ I suggest creating a conda environment for examples in this class. All examples 
 
 ```bash
 module load Anaconda3
-conda create --name 342wi25 python=3.12 -y
+conda create --name 342wi25 python=3.9 -y
 conda activate 342wi25
 conda install pytorch torchvision cudatoolkit -c pytorch -y
 python -m pip install matplotlib scipy pandas scikit-learn jupyter
